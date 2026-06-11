@@ -1,5 +1,5 @@
 datasets/
-kaggle/
+kaggle/kaggle.json
 *.pth
 *.pt
 *.h5
