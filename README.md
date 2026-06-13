@@ -43,7 +43,7 @@ from ultralytics import YOLO
 model = YOLO("best.pt")
 results = model.predict("your_image.jpg", save=True, conf=0.25)
 
-## 🚀 Как запустить (для пользователей)
+## 🚀 Как запустить в командной строке (CMD)
 
 ### 1. Клонируйте репозиторий:
 git clone https://github.com/secor1/rost_project.git
