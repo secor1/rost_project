@@ -43,7 +43,29 @@ from ultralytics import YOLO
 model = YOLO("best.pt")
 results = model.predict("your_image.jpg", save=True, conf=0.25)
 
+## 🚀 Как запустить (для пользователей)
+
+### 1. Клонируйте репозиторий:
+git clone https://github.com/secor1/rost_project.git
+cd rost_project
+
+### 2. Установите зависимости:
+pip install -r requirements.txt
+
+### 3. Модель уже в проекте:
+models/best_model.pt (20 MB)
+
+### 4. Запустите детекцию:
+python demo.py ваше_изображение.jpg
+
+### Пример:
+python demo.py demo_test.jpg
+
+### Результат в папке:
+runs/detect/predict/
+
 ## 🛠 Технологии
+
 
 - **YOLO 11** (Ultralytics)
 - **PyTorch**
