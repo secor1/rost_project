@@ -56,10 +56,10 @@ pip install -r requirements.txt
 models/best_model.pt (20 MB)
 
 ### 4. Запустите детекцию:
-python demo.py ваше_изображение.jpg
+py demo.py ваше_изображение.jpg
 
 ### Пример:
-python demo.py demo_test.jpg
+py demo.py demo_test.jpg
 
 ### Результат в папке:
 runs/detect/predict/
