@@ -106,7 +106,3 @@ MIT License
 ## 👤 Автор
 
 **secor1** — [GitHub](https://github.com/secor1)
-
-
-## 📸 Скриншоты работы
-
